@@ -5,8 +5,8 @@ void  insertionSort(int * array, int tamanhoArray){
     int copia, indice;
     
     for(int i = 1; i < tamanhoArray; i++){
-        copia = array[i]; 1
-        indice = i;  2
+        copia = array[i]; 
+        indice = i;  
         
         while(indice > 0 && array[indice-1] > copia){
             array[indice] = array[indice-1];
@@ -39,3 +39,4 @@ int main()
     
     return 0;
 }
+
